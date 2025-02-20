@@ -26,9 +26,18 @@ This project extends Mastodon's default home feed algorithm to include:
    cd mastodon_algorithms
 7. Go into the folder of the algorithm you want to use
    ```bash
-   e.g. cd second-degree
+   cd {your_algo} e.g. second-degree
 8. Install the changes, to have second-degree posts included in the "Home" timeline
    ```bash
    chmod +x install.sh  
    ./install.sh
+9. Move the changes to the correct locations
+   ```bash
+   mv -f ~/live/mastodon_algorithms/{your-algo}/app/models/home_feed.rb ~/live/app/models/
+10. Exit the Mastodon user and save the changes
+   ```bash
+   exit 
+   systemctl restart mastodon-web mastodon-sidekiq mastodon-streaming
+
+
 
