@@ -14,11 +14,17 @@ This project extends Mastodon's default home feed algorithm to include:
 
 # Installation
 
-1. In your environment, switch to the Mastodon user (su - mastodon)
-2. Clone the repository into your Mastodon environment (git clone https://github.com/felixroetzer/mastodon_algorithms.git)
-3. Now all the required files will be located inside your environment.
-4. Go into the algorithms folder (cd mastodon_algorithms)
-5. Install the changes, to have second-degree posts included in the "Home" timline
+1. In your environment, switch to the Mastodon user
+   ```bash
+   su - mastodon
+3. Clone the repository into your Mastodon environment
+   ```bash
+   git clone https://github.com/felixroetzer/mastodon_algorithms.git
+5. Now all the required files will be located inside your environment.
+6. Go into the algorithms folder
+   ```bash
+   cd mastodon_algorithms
+7. Install the changes, to have second-degree posts included in the "Home" timeline
    ```bash
    chmod +x install.sh  
    ./install.sh
