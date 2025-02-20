@@ -14,8 +14,8 @@ This project extends Mastodon's default home feed algorithm to include:
 
 # Installation
 
-1.) In your environment, switch to the Mastodon user (su - mastodon)
-2.) Clone the repository into your Mastodon environment (git clone https://github.com/felixroetzer/mastodon_algorithms.git)
-3.) Now all the required files will be located inside your environment.
-4.) Go into the algorithms folder (cd mastodon_algorithms)
+1. In your environment, switch to the Mastodon user (su - mastodon)
+2. Clone the repository into your Mastodon environment (git clone https://github.com/felixroetzer/mastodon_algorithms.git)
+3. Now all the required files will be located inside your environment.
+4. Go into the algorithms folder (cd mastodon_algorithms)
 
