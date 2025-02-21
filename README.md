@@ -9,6 +9,7 @@ This project is part of a research initiative at the Vienna University of Econom
 # Key approaches:
 
 This project extends Mastodon's default home feed algorithm to include:  
+- Changing default of the home timeline to all server posts.
 - Second-degree posts – Displays posts from users followed by those you follow, expanding the content pool.
 - Customizable ranking mechanisms - Allows instance owners to tailor how posts are ranked and presented.
 
