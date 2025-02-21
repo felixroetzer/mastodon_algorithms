@@ -13,6 +13,10 @@ This project extends Mastodon's default home feed algorithm to include:
 - Second-degree posts – Displays posts from users followed by those you follow, expanding the content pool.
 - Customizable ranking mechanisms - Allows instance owners to tailor how posts are ranked and presented.
 
+# Home Timeline Types
+1. 'default_local' = This type specifies to have the default home timeline configured such that all the posts made in the server are shown in reverse-chronological post ordering.
+2. 'second-degree' = Default home timeline shows posts from people you follow and also the posts of the people your followed ones follow.
+
 # Installation
 
 1. In your environment, switch to the Mastodon user
