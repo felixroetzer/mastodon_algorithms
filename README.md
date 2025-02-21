@@ -1,12 +1,12 @@
 # Mastodon Algorithms
 
-This project is part of a research initiative at the Vienna University of Economics and Business, exploring alternative ranking mechanisms for decentralized social media, in specific Mastodon. It provides various algorithmic implementations for Mastodon, inspired by an analysis of centralized social media ranking systems such as the Twitter algorithm. The goal is to offer instance administrators flexible ranking methods for the "Home" timeline beyond the default reverse chronological post ordering. The different implementation options might be chosen based on the administrators goal.
+This project is part of a research initiative at the Vienna University of Economics and Business, exploring alternative ranking mechanisms for decentralized social media, in specific Mastodon. It provides various algorithmic implementations for Mastodon, inspired by an analysis of centralized social media ranking systems such as the Twitter algorithm. The goal is to offer instance administrators flexible ranking methods for the "Home" timeline beyond the default reverse chronological post ordering. The different implementation options might be chosen based on the administrators goal. Some of the implementation options might not be practical to use, however, we added them to showcase many different examples.
 
 # Requirements:
 
 - Readily installed Mastodon instance on your machine. ('https://docs.joinmastodon.org/admin/install/')
 
-# Key approaches:
+# Key approaches (Increasing in complexity):
 
 This project extends Mastodon's default home feed algorithm to include:  
 - Changing default of the home timeline to all server posts.
@@ -15,7 +15,8 @@ This project extends Mastodon's default home feed algorithm to include:
 
 # Home Timeline Types
 1. 'default_local' = This type specifies to have the default home timeline configured such that all the posts made in the server are shown in reverse-chronological post ordering.
-2. 'second-degree' = Default home timeline shows posts from people you follow and also the posts of the people your followed ones follow.
+2. 'favourite_simple' = This method offers a home timeline that is strictly ranked based on the number of likes of the underlying post.
+3. 'second-degree' = Default home timeline shows posts from people you follow and also the posts of the people your followed ones follow.
 
 # Installation
 
