@@ -15,7 +15,7 @@ This project extends Mastodon's default home feed algorithm to include:
 
 # Home Timeline Types
 1. 'default_local' = This type specifies to have the default home timeline configured such that all the posts made in the server are shown in reverse-chronological post ordering.
-2. 'favourite_simple' = This method offers a home timeline that is strictly ranked based on the number of likes of the underlying post.
+2. 'favourite_simple' = This method offers a home timeline that is strictly ranked based on the number of likes of the underlying posts.
 3. 'second-degree' = Default home timeline shows posts from people you follow and also the posts of the people your followed ones follow.
 
 # Installation
