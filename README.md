@@ -1,6 +1,7 @@
 # Mastodon Algorithms
 
-This project is part of a research initiative at the Vienna University of Economics and Business, exploring alternative ranking mechanisms for decentralized social media, in specific Mastodon. It provides various algorithmic implementations for Mastodon, inspired by an analysis of centralized social media ranking systems such as the Twitter algorithm. The goal is to offer instance administrators flexible ranking methods for the "Home" timeline beyond the default reverse chronological post ordering. The different implementation options might be chosen based on the administrators goal. Some of the implementation options might not be practical to use, however, we added them to showcase many different examples.
+This project is part of a research initiative at the Vienna University of Economics and Business, exploring alternative ranking mechanisms for decentralized social media, in specific Mastodon. It provides various algorithmic implementations for Mastodon, inspired by an analysis of centralized social media ranking systems such as the Twitter algorithm. 
+The goal is to offer instance administrators flexible ranking methods for the "Home" timeline beyond the default reverse chronological post ordering. The different implementation options might be chosen based on the administrators goal. Some of the implementation options might not be practical to use, however, we added them to showcase many different examples.
 
 # Requirements:
 
