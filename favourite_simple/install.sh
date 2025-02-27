@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "🚀 Starting installation of Second-Degree Feed..."
+echo "🚀 Starting installation of Favourite Simple Feed..."
 
 # Define paths
 MASTODON_DIR="$HOME/live"  # Adjust if needed
-TARGET_FILE="$MASTODON_DIR/app/models/home_feed.rb"
+TARGET_FILE="$MASTODON_DIR/app/models/feed.rb"
 BACKUP_FILE="$TARGET_FILE.bak"
 
 # Ensure the Mastodon directory exists
@@ -15,12 +15,12 @@ fi
 
 # Backup the existing file
 if [ -f "$TARGET_FILE" ]; then
-    echo "💾 Backing up the existing home_feed.rb to home_feed.rb.bak"
+    echo "💾 Backing up the existing feed.rb to feed.rb.bak"
     cp "$TARGET_FILE" "$BACKUP_FILE"
 fi
 
 # Replace the file
-echo "📝 Replacing home_feed.rb with the custom version"
-cp home_feed.rb "$TARGET_FILE"
+echo "📝 Replacing feed.rb with the custom version"
+cp feed.rb "$TARGET_FILE"
 
 echo "✅ Installation complete!"
