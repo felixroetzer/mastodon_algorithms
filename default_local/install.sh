@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Starting installation of Second-Degree Feed..."
+echo "🚀 Starting installation of Default Local Feed..."
 
 # Define paths
 MASTODON_DIR="$HOME/live"  # Adjust if needed
