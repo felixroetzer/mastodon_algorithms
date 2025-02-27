@@ -23,10 +23,4 @@ fi
 echo "📝 Replacing home_feed.rb with the custom version"
 cp ./app/models/home_feed.rb "$TARGET_FILE"
 
-# Restart Mastodon
-echo "♻️ Restarting Mastodon services"
-cd "$MASTODON_DIR"
-RAILS_ENV=production bundle exec rails assets:precompile
-sudo systemctl restart mastodon-web mastodon-sidekiq mastodon-streaming
-
 echo "✅ Installation complete!"
