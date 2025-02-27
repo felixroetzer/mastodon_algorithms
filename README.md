@@ -25,7 +25,10 @@ This project extends Mastodon's default home feed algorithm to include:
 1. In your environment, switch to the Mastodon user
    ```bash
    su - mastodon
-3. Clone the repository into your Mastodon environment
+2. Enter the live directory
+   ```bash
+   cd live
+4. Clone the repository into your Mastodon environment
    ```bash
    git clone https://github.com/felixroetzer/mastodon_algorithms.git
 5. Now all the required files will be located inside your environment.
