@@ -39,9 +39,6 @@ This project extends Mastodon's default home feed algorithm to include:
    ```bash
    chmod +x install.sh  
    ./install.sh
-9. Move the changes to the correct locations
-   ```bash
-   mv -f ~/live/mastodon_algorithms/{your-algo}/app/models/home_feed.rb ~/live/app/models/
 10. Exit the Mastodon user and save the changes
    ```bash
    exit 
