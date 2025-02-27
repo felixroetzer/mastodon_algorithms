@@ -21,6 +21,6 @@ fi
 
 # Replace the file
 echo "📝 Replacing home_feed.rb with the custom version"
-cp ./app/models/home_feed.rb "$TARGET_FILE"
+cp home_feed.rb "$TARGET_FILE"
 
 echo "✅ Installation complete!"
